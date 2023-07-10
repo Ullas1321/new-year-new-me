@@ -125,9 +125,97 @@ text-align: center;
     border: 1px solid black;
     border-radius: 10px;
     margin: 0 auto;
-    background-image: url(images/watch.png);
+     background-image: url(images/watch.png), 
+     linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+     ;
     background-repeat: no-repeat;
     background-size:cover;
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    margin-top: 100px;
 
 }
+.call-btn{
+    width: 160px;
+height: 64px;
+border-radius: 5px;
+background: #FFF;
+color: #F15B22;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+border: none;
+margin-top: 10px;
+
+}
+.call-head{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 700;
+
+}
+.call-content{
+    width: 500px;
+    margin: 70px;
+}
+/* <!-- call section end --> */
+
+/* <!-- footer section start --> */
+.footer-container{
+    height: 60vh;
+    background-color: rgb(26, 25, 25);
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.future{
+    width: 500px;
+}
+.fu-h{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+
+
+}
+.fu-p{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.fu-m{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.sub-h{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+
+    font-weight: 400;
+    
+}
+input{
+    height: 65px;
+    width: 300px;
+    display: block;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: rgb(26, 25, 25);
+    
+}
+input::placeholder{
+    font-size: 22px;
+    color: white;
+    
+}
+
+/* <!-- footer section start --> */
+
