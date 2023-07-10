@@ -71,3 +71,63 @@ border: none;
 .ab-h{
     font-size: 40px;
 }
+
+/* end about section */
+
+/* start skill section */
+.skill{
+    width: 300px;
+  
+    text-align: center;
+}
+
+.skill-plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.plan{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.skill-head{
+color: var(--dark-01, #151414);
+text-align: center;
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+
+}
+.skill-text{
+    color: var(--dark-03, #737272);
+text-align: center;
+font-family: Work Sans;
+font-size: 25px;
+font-weight: 500;
+}
+.plan-head{
+color: var(--dark-01, #151414);
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+}
+
+/* end skill section */
+
+/* start call section */
+
+.call-container{
+    width: 80%;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+
+}
