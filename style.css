@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* header section start */
 .header-container{
 width: 100%;
 height: 808px;
@@ -51,4 +51,23 @@ background: #F15B22;
 color: white;
 font-weight: 400;
 border: none;
+}
+
+/* header section end */
+
+/* about section start */
+.about-container{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content:space-around;
+    padding: 80px;
+
+
+}
+.about-text{
+    width: 500px;
+}
+.ab-h{
+    font-size: 40px;
 }
