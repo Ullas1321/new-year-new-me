@@ -9,7 +9,46 @@ height: 808px;
 flex-shrink: 0;
 background-image: url(images/banner/banner1.png);
 background-size: cover;
+display: flex;
+display: flex;
+flex-direction: column;
+align-items:flex-end;
+
 }
-.head-content{
+.head-content1{
+    
+    text-align: right;
+    margin-right: 250px;
+    margin-top: 250px;
+ 
+
+}
+.head-content2{
     width: 500px;
+}
+.head-h{
+    color: var(--dark-01, #151414);
+text-align: right;
+font-family: Work Sans;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+
+}
+.head-p{
+    color: var(--dark-02, #444343);
+text-align: right;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.btn{
+    width: 160px;
+height: 54px;
+border-radius: 5px;
+background: #F15B22;
+color: white;
+font-weight: 400;
+border: none;
 }
